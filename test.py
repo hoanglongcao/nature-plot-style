@@ -37,5 +37,9 @@ plt.ylabel('Y axis')
 # Tight layout
 plt.tight_layout()
 
+# EXPORT
+# Save to PDF
+plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
+
 # Display the plot
 plt.show()

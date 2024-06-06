@@ -54,6 +54,13 @@ nps.nature_colors['Yellow'][3]
 nps.nature_colors['Purple'][3]
 ```
 
+4. Export to PDF. For example:
+
+```
+# Save to PDF
+plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
+```
+
 ## Examples
 
 Currently, only `test.py` is provided.
