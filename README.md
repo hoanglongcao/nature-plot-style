@@ -5,7 +5,7 @@ This repository provides a Python script to apply Nature journal's style to `mat
 
 Source:
 - [Nature Artwork Guide](https://www.nature.com/documents/natrev-artworkguide.pdf)
-- ![Final guide to authors](https://www.nature.com/documents/Final_guide_to_authors.pdf)
+- [Final guide to authors](https://www.nature.com/documents/Final_guide_to_authors.pdf)
 
 ## Features
 
@@ -26,7 +26,7 @@ Source:
 ## Usage
 
 1. Place `nature_plot_style.py` file in your folder
-2. import the `set_nature_style` function from the script and apply it before plotting:
+2. Import the `set_nature_style` function from the script and apply it before plotting:
 
 ```python
 import nature_plot_style as nps  
@@ -45,6 +45,15 @@ height_in_inches = width_in_inches /ratio  # Maintain a aspect ratio
 # To be used when create a plot: figsize=(width_in_inches, height_in_inches)
 
 # Your plotting code here
+```
+
+3. Using Nature-branded colors by using `nps.nature_colors[_][_]`. For example:
+
+```
+nps.nature_colors['Red'][3]
+nps.nature_colors['Blue'][3]
+nps.nature_colors['Yellow'][3]
+nps.nature_colors['Purple'][3]
 ```
 
 ## Examples
