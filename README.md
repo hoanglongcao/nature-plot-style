@@ -3,9 +3,7 @@
 
 This repository provides a Python script to apply Nature journal's style to `matplotlib` plots. It includes customized plot settings and color palettes insprired by Nature publications.
 
-Source:
-- [Nature Artwork Guide](https://www.nature.com/documents/natrev-artworkguide.pdf)
-- [Final guide to authors](https://www.nature.com/documents/Final_guide_to_authors.pdf)
+Source: [Nature Artwork Guide](https://www.nature.com/documents/natrev-artworkguide.pdf) [Final guide to authors](https://www.nature.com/documents/Final_guide_to_authors.pdf)
 
 ## Features
 
