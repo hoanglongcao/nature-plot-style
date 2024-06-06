@@ -25,8 +25,8 @@ Source:
 
 ## Usage
 
-1. Place `nature_plot_style.py` file in your folder
-2. Import the `set_nature_style` function from the script and apply it before plotting:
+1. Place `nature_plot_style.py` file in your folder.
+2. Import the `set_nature_style` function from the script and apply it before plotting.
 
 ```python
 import nature_plot_style as nps  
