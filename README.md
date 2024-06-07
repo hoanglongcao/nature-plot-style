@@ -75,4 +75,5 @@ plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
 
 Currently, only `test.py` is provided.
 
-![Test figure](test.png)
+![Nature](test.png)
+![Batlow](batlow.png)
