@@ -54,6 +54,16 @@ nps.nature_colors['Yellow'][3]
 nps.nature_colors['Purple'][3]
 ```
 
+We can also use `batlow` colors from [cmcrameri](https://pypi.org/project/cmcrameri/).
+
+```
+import cmcrameri.cm as cmc
+
+# Generating a color palette from the 'batlow' colormap
+n_colors = 4  # Number of colors in the palette
+colors = [cmc.batlow(i/n_colors) for i in range(n_colors)]
+```
+
 4. Export to PDF. For example:
 
 ```

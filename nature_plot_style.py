@@ -9,6 +9,7 @@ def set_nature_style():
         'font.family': 'Arial',
         'font.size': 8,
         'axes.titlesize': 8,
+        'axes.titleweight': 'bold',
         'axes.labelsize': 8,
         'xtick.labelsize': 7,
         'ytick.labelsize': 7,
@@ -66,7 +67,7 @@ def plot_palette(ax, palettes, title):
     ax.set_ylim(0, num_palettes)
     ax.set_xticks([])
     ax.set_yticks([])
-    ax.set_title(title, loc='center', fontsize=8, fontweight='bold')
+    ax.set_title(title, loc='center')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.spines['bottom'].set_visible(False)
