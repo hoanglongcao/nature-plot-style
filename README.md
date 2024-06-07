@@ -47,7 +47,7 @@ height_in_inches = width_in_inches /ratio  # Maintain a aspect ratio
 
 3. Using Nature-branded colors by using `nps.nature_colors[_][_]`. For example:
 
-```
+```python
 nps.nature_colors['Red'][3]
 nps.nature_colors['Blue'][3]
 nps.nature_colors['Yellow'][3]
@@ -56,7 +56,7 @@ nps.nature_colors['Purple'][3]
 
 We can also use `batlow` colors from [cmcrameri](https://pypi.org/project/cmcrameri/).
 
-```
+```python
 import cmcrameri.cm as cmc
 
 # Generating a color palette from the 'batlow' colormap
