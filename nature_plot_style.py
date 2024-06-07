@@ -94,7 +94,7 @@ def plot_color_palettes():
 
     for ax, palette, title in zip(axes, palettes, titles):
         plot_palette(ax, nature_color_palettes[palette], title)
-    plt.show()
+    plt.show(block=False)
 
 
 
