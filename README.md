@@ -66,7 +66,7 @@ colors = [cmc.batlow(i/n_colors) for i in range(n_colors)]
 
 4. Export to PDF. For example:
 
-```
+```python
 # Save to PDF
 plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
 ```
