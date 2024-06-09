@@ -24,7 +24,7 @@ def set_nature_style():
         'figure.autolayout': True
     })
 
-# Color palettes
+# Nature-branded color palettes
 # Source: https://www.nature.com/documents/natrev-artworkguide.pdf
 nature_color_palettes = {
     'main_background': {

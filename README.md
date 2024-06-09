@@ -64,6 +64,9 @@ n_colors = 4  # Number of colors in the palette
 colors = [cmc.batlow(i/n_colors) for i in range(n_colors)]
 ```
 
+We can also colors from [The Economist](https://design-system.economist.com/foundations/colour/palettes). See `test.py`.
+
+
 4. Export to PDF. For example:
 
 ```python
@@ -77,3 +80,4 @@ Currently, only `test.py` is provided.
 
 ![Nature](test.png)
 ![Batlow](batlow.png)
+![The Economist](the-economist.png)
