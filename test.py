@@ -31,7 +31,10 @@ plt.plot(x, y1, label='sin(x)', color=nps.nature_colors['Blue'][3])
 plt.plot(x, y2, label='cos(x)', color=nps.nature_colors['Red'][3])
 plt.plot(x, y3, label='log(x+1)', color=nps.nature_colors['Green'][3])
 plt.plot(x, y4, label='x^0.5', color=nps.nature_colors['Purple'][3])
+# Adding title and labels
 plt.title('Nature')
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
 # EXPORT
 # Save to PDF
 plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
@@ -48,7 +51,10 @@ plt.plot(x, y1, label='sin(x)', color=colors[0])
 plt.plot(x, y2, label='cos(x)', color=colors[1])
 plt.plot(x, y3, label='log(x+1)', color=colors[2])
 plt.plot(x, y4, label='x^0.5', color=colors[3])
+# Adding title and labels
 plt.title('Batlow')
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
 
 #FIGURE 3: The Economist-branded colors
 # Source: https://design-system.economist.com/foundations/colour/palettes
@@ -114,15 +120,10 @@ plt.plot(x, y1, label='sin(x)', color=economist_colors['Accent']['Primary']['Chi
 plt.plot(x, y2, label='cos(x)', color=economist_colors['Accent']['Secondary']['Hong Kong 55'])
 plt.plot(x, y3, label='log(x+1)', color=economist_colors['Accent']['Secondary']['Tokyo 55'])
 plt.plot(x, y4, label='x^0.5', color=economist_colors['Accent']['Tertiary']['Singapore 65'])
-plt.title('The Economist')
-
-
 # Adding title and labels
+plt.title('The Economist')
 plt.xlabel('X axis')
 plt.ylabel('Y axis')
-
-# Tight layout
-plt.tight_layout()
 
 # Display the plot
 plt.show()
