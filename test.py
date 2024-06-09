@@ -114,7 +114,7 @@ economist_colors = {
     }
 }
 
-# Creating a plot using batlow colors
+# Creating a plot using The Economist-branded colors
 plt.figure(figsize=(width_in_inches, height_in_inches))
 plt.plot(x, y1, label='sin(x)', color=economist_colors['Accent']['Primary']['Chicago 30'])
 plt.plot(x, y2, label='cos(x)', color=economist_colors['Accent']['Secondary']['Hong Kong 55'])
