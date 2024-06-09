@@ -11,6 +11,7 @@ Source: [Nature Artwork Guide](https://www.nature.com/documents/natrev-artworkgu
 - **Color Palettes**: Multiple color palettes proposed by Nature. The colors were identified using Pick colors function of Inkscape.
 
 ![Nature-branded colour palette](ncp.svg)
+
 *Inkscape users can download this SVG file for reference.*
 
 ## Installation
@@ -80,5 +81,7 @@ plt.savefig('test.pdf', bbox_inches='tight', pad_inches=0.05)
 Currently, only `test.py` is provided.
 
 ![Nature](test.png)
+
 ![Batlow](batlow.png)
+
 ![The Economist](the-economist.png)
