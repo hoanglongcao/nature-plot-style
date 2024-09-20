@@ -13,7 +13,7 @@ def set_nature_style():
         'axes.labelsize': 8,
         'xtick.labelsize': 7,
         'ytick.labelsize': 7,
-        'legend.fontsize': 8,
+        'legend.fontsize': 7,
         'axes.linewidth': 1,
         'xtick.major.width': 1,
         'ytick.major.width': 1,
