@@ -14,6 +14,7 @@ def set_nature_style():
         'xtick.labelsize': 7,
         'ytick.labelsize': 7,
         'legend.fontsize': 7,
+        'legend.frameon': False,
         'axes.linewidth': 1,
         'xtick.major.width': 1,
         'ytick.major.width': 1,
